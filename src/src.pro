@@ -23,9 +23,6 @@ nogui {
         DEFINES += QBT_STATIC_QT
         QTPLUGIN += qico
     }
-    win32 {
-        QT += winextras
-    }
     macx {
         LIBS += -lobjc
     }
